@@ -1,4 +1,4 @@
-@import "../../../vars.css";
+@import "../../vars.css";
 
 .container {
     position: relative;
@@ -25,13 +25,13 @@
     margin-bottom: 33px;
     font-family: var(--font-roboto);
     background: linear-gradient(
-        90deg,
-        rgba(225, 225, 225, 1) 70%,
-        rgba(225, 225, 225 0) 120%
+      90deg,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 120%
     );
     -webkit-text-fill-color: transparent;
-    -webkit-backdrop-filter: text;
-}
+    -webkit-background-clip: text;
+  }  
 
 .description {
     font-size: 30px;
